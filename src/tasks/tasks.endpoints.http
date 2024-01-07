@@ -1,0 +1,25 @@
+### Fatch all tasks
+GET http://localhost:3200/tasks
+Content-Type: application/json
+
+### Create a new task
+POST http://localhost:3200/tasks
+Content-Type: application/json
+
+{
+  "title": "Buy my Suya",
+  "date": "2024-01-01T12:00:00Z",
+  "description": " After finishing my coding, and try and go and buy Suya for the night.",
+  "priority": "normal",
+  "status": "todo"
+}
+
+
+### Update a new task
+PUT http://localhost:3200/tasks
+Content-Type: application/json
+
+{
+  "id": "6612a266-2107-4feb-9fe7-7b57bef81634",
+  "status": "inProgress"
+}
