@@ -52,6 +52,7 @@ export const updateValidator = [
     .trim()
     .isString()
     .withMessage('ID needs to be a valid uuid format'),
+
   body('status')
     .trim()
     .isIn([
