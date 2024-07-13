@@ -2,7 +2,7 @@
 
 Utilized TypeScript for back-end development using NodeJS, Express, TypeORM and MySQL.
 
-Follow these steps to set up the project locally on your machine.
+Follow these steps to set up the project locally on your machine:
 
 **Prerequisites**
 
